@@ -24,7 +24,6 @@ function generarNumeroAleatorio(){
 function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
 
-
     if (numeroDeUsuario === numeroAleatorio){
         asignarTextoElemento('p',`Acertaste en ${intentos} ${(intentos === 1) ? 'intento' : 'intentos'}!`);
         //remover el disable del boton para activarlo
